@@ -1,10 +1,18 @@
-Problem Statement EVA 4, Session8 : CIFAR 10
-Target:
+# Problem Statement EVA 4, Session9 : CIFAR 10
 
-Extract the ResNet18 model from this repository and add it to your API/repo. Use your data loader, model loading, train, and test code to train ResNet18 on Cifar10 Target is 85% accuracy. No limit on the number of epochs. Use default ResNet18 code (so params are fixed).
-Results
+## Target:
 
-Total Parameters = 11,173,962 After 10 Epochs, Final Train Accuracy = 87.90% After 10 Epochs, Final Test Accuracy = 86.17%
-Analysis
+-  Move your last code's transformations to Albumentations. Apply ToTensor, HorizontalFlip, Normalize (at min) + More (for additional points) Please make sure that your test_transforms are simple and only using ToTensor and Normalize
+-  Implement GradCam function as a module. Your final code (notebook file) must use imported functions to implement transformations and GradCam functionality
+- Target Accuracy is 87%. Submit answers to S9-Assignment-Solution.
 
-Target accuracy > 85% using Reset18 architecture. Model performance is good as train and test accuracy is small.
+## Results
+
+-  Total Parameters = 11,173,962
+-  After 20 Epochs, Final Train Accuracy = 88.16%
+-  After 20 Epochs, Final Test Accuracy = 87.18%
+
+
+## Analysis
+
+-  Target accuracy > 87% using Reset18 architecture. Model performance is good as train and test accuracy is small.
