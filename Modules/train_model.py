@@ -40,13 +40,6 @@ class train:
 
             # Calculate loss
             loss = criterion(outputs, targets)
-            reg = 1e-6
-            l1_loss = torch.tensor(0., requires_grad=True)
-            l1_loss=l1_loss.to(device)
-            for name, param in model.named_parameters():
-                if 'bias' not in name:
-                    l1_loss = l1_loss + reg*(torch.norm(param, 1))
-            loss=loss+l1_loss            
             self.train_losses.append(loss)
 
             # Backpropagation
