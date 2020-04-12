@@ -1,4 +1,4 @@
-# Problem Statement EVA 4, Session10 : CIFAR 10
+# Problem Statement EVA 4, Session11 : CIFAR 10
 
 ## Target:
 
