@@ -3,7 +3,7 @@
         "year": 2020,          #annotation year
         "version": "1",        #Version of annotation for version control
         "description": "Exported using VGG Image Annotator (http://www.robots.ox.ac.uk/~vgg/software/via/)", #Software used for annotation
-        "contributor": "Sujit Kumar Ojha",                                           # who annotated
+        "contributor": "Harinath Reddy",                                           # who annotated
         "url": "http://www.robots.ox.ac.uk/~vgg/software/via/",                      # reference link for annotation software
         "date_created": "Sun Apr 19 2020 19:55:27 GMT+0530 (India Standard Time)"    #  Date when it was created/annotated
     },
