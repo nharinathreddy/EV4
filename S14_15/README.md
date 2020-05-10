@@ -26,5 +26,5 @@ Now add a readme file on GitHub for Project 15A:
   - Masks for foreground was created using GIMP by selecting the alpha region and filling the space with white.
   - Overlay the fg over bg and created 20 variants: Using combination of 100 fg with flip (x2) and 100 bg and placing foreground images randomly. Used PIL python library for combining the images.
   - Depth images was created using the deep learning model (https://github.com/ialhashim/DenseDepth/blob/master/DenseDepth.ipynb) prediction.
-  - Notebook file, used to create this dataset: https://github.com/sujitojha1/EVA4/blob/rev7/S14_15/EVA4_S15a_Solution_DenseDepth_v1.ipynb
-  - Notebook file, used to calculate statistics for this dataset:https://github.com/sujitojha1/EVA4/blob/rev7/S14_15/EVA4_S15a_Solution_DenseDepth_v1.ipynb
+  - Notebook file, used to create this dataset: https://github.com/nharinathreddy/EVA4/blob/rev7/S14_15/EVA4_S15a_Solution_DenseDepth_v1.ipynb
+  - Notebook file, used to calculate statistics for this dataset:https://github.com/nharinathreddy/EVA4/blob/rev7/S14_15/EVA4_S15a_Solution_DenseDepth_v1.ipynb
